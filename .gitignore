@@ -8,3 +8,4 @@
 *.egg-info
 *.EGG-INFO
 .*.cfg
+ultisnips.private/

@@ -2,6 +2,7 @@
 
 My Favorite SpaceVim Config
 
+
 ## 0x01 安装
 
 ```
@@ -261,5 +262,3 @@ vim --startuptime /tmp/startup.log +q && vim /tmp/startup.log
 
 * [c-vim](https://github.com/twocucao/c-vim)
 
-
-## 0x02 Install 

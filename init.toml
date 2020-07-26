@@ -19,14 +19,15 @@
   enable_statusline_mode = false
   ## File Explorer
   filemanager = "defx"
+  ## Snippet Engine
+  snippet_engine = "ultisnips"
 
 [[layers]]
   name = "default"
 
 [[layers]]
   name = 'autocomplete'
-  auto_completion_return_key_behavior = "complete"
-  auto_completion_tab_key_behavior = "smart"
+  autocomplete_method = "deoplete"
 
 [[layers]]
   name = 'shell'
