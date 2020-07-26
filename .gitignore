@@ -1,0 +1,10 @@
+.DS_Store
+*.pyc
+*.pyo
+*.tmp*
+*.mo
+*.egg
+*.EGG
+*.egg-info
+*.EGG-INFO
+.*.cfg

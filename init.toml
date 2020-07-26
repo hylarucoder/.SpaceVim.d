@@ -8,25 +8,21 @@
 
 # All SpaceVim option below [option] section
 [options]
-  # set spacevim theme. by default colorscheme layer is not loaded,
-  # if you want to use more colorscheme, please load the colorscheme
-  # layer
+  ## UI
   colorscheme = "NeoSolarized"
   colorscheme_bg = "dark"
-  # Disable guicolors in basic mode, many terminal do not support 24bit
-  # true colors
   enable_guicolors = true
-  # Disable statusline separator, if you want to use other value, please
-  # install nerd fonts
   statusline_separator = "arrow"
   statusline_inactive_separator = "arrow"
   buffer_index_type = 4
   enable_tabline_filetype_icon = true
   enable_statusline_mode = false
+  ## File Explorer
   filemanager = "defx"
-  enable_vimfiler_gitstatus = true
 
-# Enable autocomplete layer
+[[layers]]
+  name = "default"
+
 [[layers]]
   name = 'autocomplete'
   auto_completion_return_key_behavior = "complete"
@@ -45,6 +41,15 @@
 
 [[layers]]
   name = "git"
+
+[[layers]]
+  name = "github"
+
+[[layers]]
+  name = "edit"
+
+[[layers]]
+  name = "tools"
 
 [[layers]]
   name = "lang#dockerfile"
@@ -78,3 +83,6 @@
   repo = "lilydjwg/colorizer"
   merged = false
 
+
+[[custom_plugins]]
+  repo = "wsdjeg/mdctags.rs"
