@@ -2,7 +2,6 @@
 
 My Favorite SpaceVim Config
 
-
 ## 0x01 安装
 
 ```
@@ -12,7 +11,19 @@ pip3 install --user pynvim
 
 # add to your zshrc
 export PATH="$PATH:$HOME/.SpaceVim.d/bin"
+
+# pip3 install vim-vint
 ```
+
+## 0x02 易记按键
+
+```
+b for buffer
+p for project
+s for search
+h for help
+```
+
 
 ## 0x02 跳转篇
 
@@ -261,4 +272,5 @@ vim --startuptime /tmp/startup.log +q && vim /tmp/startup.log
 ## 0xEE 扩展阅读
 
 * [c-vim](https://github.com/twocucao/c-vim)
+
 
