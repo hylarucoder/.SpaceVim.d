@@ -2,6 +2,8 @@
 
 My Favorite SpaceVim Config
 
+deprecated for https://github.com/twocucao/c-vim
+
 ## 0x01 安装
 
 ```
